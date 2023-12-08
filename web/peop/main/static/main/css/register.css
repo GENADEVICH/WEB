@@ -1,0 +1,100 @@
+#reg{
+    position:absolute;
+    top:91px;
+    left:806px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#textlog{
+    position:absolute;
+    top:260px;
+    left:698px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#log{
+    position:absolute;
+    top:299px;
+    left:676px;
+    width: 567px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #333;
+    font-size: 64px;
+}
+
+#textemail{
+    position:absolute;
+    top:403px;
+    left:698px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#email{
+    position:absolute;
+    top:442px;
+    left:676px;
+    width: 567px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #333;
+    font-size: 64px;
+}
+
+#textparol{
+    position:absolute;
+    top:546px;
+    left:698px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#parol{
+    position:absolute;
+    top:585px;
+    left:676px;
+    width: 567px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #333;
+    font-size: 64px;
+}
+
+#sozdat{
+    position:absolute;
+    top:803px;
+    left:676px;
+    width: 567px;
+height: 88px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FF783F;
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

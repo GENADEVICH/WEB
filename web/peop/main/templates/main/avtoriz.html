@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Регистрация{% endblock %}
+{% block css %}<link rel="stylesheet" href="static/main/css/avtoriz.css">{% endblock %}
+{% block content %}
+    <a id="reg">Авторизация</a>
+    <a id="textlog">Логин</a>
+    <form>
+        <input type="login" id="log" maxlength="16">
+    </form>
+    <a id="textparol">Пароль</a>
+    <form>
+        <input type="parol" id="parol" maxlength="16">
+    </form>
+    <button type="button" id="sozdat" onClick='location.href="{% url 'index' %}"'>Войти</button>
+{% endblock %}

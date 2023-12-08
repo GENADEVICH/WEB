@@ -1,0 +1,47 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Треки{% endblock %}
+{% block css %}<link rel="stylesheet" href="static/main/css/music.css">{% endblock %}
+{% block content %}
+    <div class="rectangle">
+        <a id="online">Онлайн.Музыка</a>
+        <img class="onlinesvg" src="static/main/img/icons.png">
+        <a id="home" href="{% url 'index' %}">Главное</a>
+        <img class="glavnoesvg" src="static/main/icons/audio-square.svg">
+        <a id="radio" href="{% url 'radio' %}">Радио</a>
+        <img class="radiosvg" src="static/main/icons/radio.svg">
+        <a id="podcast" href="{% url 'podcast' %}">Подкасты и книги</a>
+        <img class="podcastsvg" src="static/main/icons/book-saved.svg">
+        <a id="music">МОЯ МУЗЫКА</a>
+        <a id="track" href="{% url 'music' %}">Треки</a>
+        <img class="tracksvg" src="static/main/icons/note.svg">
+        <a id="album" href="{% url 'album' %}">Альбомы</a>
+        <img class="albumsvg" src="static/main/icons/cd.svg">
+        <a id="performers" href="{% url 'performers' %}">Исполнители</a>
+        <img class="performerssvg" src="static/main/icons/user.svg">
+        <a id="playlists" href="{% url 'playlist' %}">Плейлисты</a>
+        <img class="playlistssvg" src="static/main/icons/musicnote1.svg">
+        <a id="myfiles" href="{% url 'addfile' %}">Мои файлы</a>
+        <img class="myfilessvg" src="static/main/icons/frame.svg">
+        <a id="settings" href="{% url 'settings' %}">Настройки</a>
+        <img class="settingssvg" src="static/main/icons/setting.svg">
+        <a id="account" href="{% url 'profile' %}">Кирилл Колосов</a>
+        <img class="accountsvg" src="static/main/icons/profile.svg">
+    <div class="rectangle-2">
+        <img class="search" src="static/main/icons/search 1.svg">
+        <p> <input type="search" class="searchtext" placeholder="Поиск"></p>
+        <div class="rectangle-line"></div>
+        <a id="glav">Треки</a>
+        <a id="TRECK">ТРЕК</a>
+        <img class="piuyala" src="static/main/img/piuyala.png">
+        <a id="Treck">Пыяла</a>
+        <a id="ISPOL">ИСПОЛНИТЕЛЬ</a>
+        <a id="ispol1">АИГЕЛ</a>
+        <a id="ALBUM">АЛЬБОМ</a>
+        <a id="album1">Пыяла</a>
+    </div>
+</div>
+    <div class="rectangle-1">
+        <div class="progresbar"></div>
+    </div>
+{% endblock %}

@@ -1,0 +1,486 @@
+.body{
+    overflow-x: clip; /* отключает горизонтальный скролл */
+  overflow-y: hidden; /* включает вертикальный скролл */
+}
+
+
+
+.rectangle{
+    width: 333px;
+    height: 945px;
+    flex-shrink: 1;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background: #141414;
+  }
+
+.rectangle-1{
+    width: 1920px;
+    height: 105px;
+    flex-shrink: 1;
+    position:absolute;
+    top:840px;
+    left:0px;
+    background: #222222;
+}
+
+.rectangle-2{
+    width: 1587px;
+    height: 840px;
+    flex-shrink: 1;
+    position:absolute;
+    top:0px;
+    left:333px;
+    background: #181818;
+}
+
+.rectangle-line{
+    width: 1280px;
+    height: 1px;
+    position:absolute;
+    top:81px;
+    left:113px;
+    background: #4E4E4E;
+}
+
+.progresbar{
+    width: 1920px;
+    height:5px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background: #2e2e2e;
+}
+
+.onlinesvg{
+    position:absolute;
+    top:6px;
+    left:43px;
+    width:22px;
+    height:22px;
+    flex-shrink: 0;
+}
+
+#online{
+    width: 157px;
+    height: 23px;
+    flex-shrink: 0;
+    position:absolute;
+    top:6px;
+    left:88px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home{
+    width: 85px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #FFF;
+    position:absolute;
+    top:117px;
+    left:92px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.radiosvg{
+    position:absolute;
+    top:159px;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+#radio{
+    width: 116px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #FFF;
+    position:absolute;
+    top:164px;
+    left:92px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.podcastsvg{
+    position:absolute;
+    top:213px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#podcast{
+    position:absolute;
+    top:212px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#music{
+    position:absolute;
+    top:304px;
+    left:39px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tracksvg{
+    position:absolute;
+    top:349px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#track{
+    width: 44px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:350px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.albumsvg{
+    position:absolute;
+    top:400px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#album{
+    width: 68px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:401px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.performerssvg{
+    position:absolute;
+    top:450px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#performers{
+    width: 98px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:452px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.playlistssvg{
+    position:absolute;
+    top:500px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#playlists{
+    width: 83px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:503px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.myfilessvg{
+    position:absolute;
+    top:552px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#myfiles{
+    width: 120px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:554px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.settingssvg{
+    position:absolute;
+    top:738px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#settings{
+    width: 128px;
+    height: 24px;
+    flex-shrink: 0;
+    position:absolute;
+    top:738px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.accountsvg{
+    position:absolute;
+    top:782px;;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#account{
+    width: 241px;
+    height: 18px;
+    flex-shrink: 0;
+    position:absolute;
+    top:782px;
+    left:92px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.search{
+    position:absolute;
+    top:52px;
+    left:125px;
+}
+
+.searchtext{
+    position:absolute;
+    top:38px;
+    left:150px;
+    width: 1240px;
+    height: 40px;
+    color: #FFF;
+  font-weight: bold;      
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  cursor: text;
+  outline: none;
+}
+
+
+#poisk{
+    position:absolute;
+    top:47px;
+    left:155px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.glavnoesvg{
+    position:absolute;
+    top:117px;
+    left:43px;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+#glavnoe{
+    position:absolute;
+    top:117px;
+    left:113px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sobiraemdly{
+    position:absolute;
+    top:249px;
+    left:113px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card{
+    position:absolute;
+    top:269px;
+    left:113px;
+    width: 250px;
+    height: 250.98px;
+    flex-shrink: 0;
+    border-radius: 205px;
+}
+
+.card1{
+    position:absolute;
+    top:269px;
+    left:469px;
+    width: 250px;
+    height: 250.98px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 205px;
+}
+
+.card2{
+    position:absolute;
+    top:269px;
+    left:825px;
+    width: 250px;
+    height: 250.98px;
+    flex-shrink: 0;
+    border-radius: 205px;
+}
+
+.card3{
+    position:absolute;
+    top:269px;
+    left:1181px;
+    width: 250px;
+    height: 250.98px;
+    flex-shrink: 0;
+    border-radius: 205px;
+}
+
+.card-title{
+    width: 100px;
+    height: 15px;
+    flex-shrink: 0;
+    position:absolute;
+    top:531px;
+    left:199px;
+    color: #BDBDBD;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title1{
+    width: 73px;
+    height: 15px;
+    flex-shrink: 0;
+    position:absolute;
+    top:529px;
+    left:561px;
+    color: #BDBDBD;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title2{
+    position:absolute;
+    top:531px;
+    left:938px;
+    color: #BDBDBD;  
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-title3{
+    position:absolute;
+    top:531px;
+    left:1263px;
+    color: #BDBDBD;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

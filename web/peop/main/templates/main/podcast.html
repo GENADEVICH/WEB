@@ -1,0 +1,53 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Подкасты и книги{% endblock %}
+{% block css %}<link rel="stylesheet" href="static/main/css/podcast.css">{% endblock %}
+{% block content %}
+    <div class="rectangle">
+        <a id="online">Онлайн.Музыка</a>
+        <img class="onlinesvg" src="static/main/img/icons.png">
+        <a id="home" href="{% url 'index' %}">Главное</a>
+        <img class="glavnoesvg" src="static/main/icons/audio-square.svg">
+        <a id="radio" href="{% url 'radio' %}">Радио</a>
+        <img class="radiosvg" src="static/main/icons/radio.svg">
+        <a id="podcast" href="{% url 'podcast' %}">Подкасты и книги</a>
+        <img class="podcastsvg" src="static/main/icons/book-saved.svg">
+        <a id="music">МОЯ МУЗЫКА</a>
+        <a id="track" href="{% url 'music' %}">Треки</a>
+        <img class="tracksvg" src="static/main/icons/note.svg">
+        <a id="album" href="{% url 'album' %}">Альбомы</a>
+        <img class="albumsvg" src="static/main/icons/cd.svg">
+        <a id="performers" href="{% url 'performers' %}">Исполнители</a>
+        <img class="performerssvg" src="static/main/icons/user.svg">
+        <a id="playlists" href="{% url 'playlist' %}">Плейлисты</a>
+        <img class="playlistssvg" src="static/main/icons/musicnote1.svg">
+        <a id="myfiles" href="{% url 'addfile' %}">Мои файлы</a>
+        <img class="myfilessvg" src="static/main/icons/frame.svg">
+        <a id="settings" href="{% url 'settings' %}">Настройки</a>
+        <img class="settingssvg" src="static/main/icons/setting.svg">
+        <a id="account" href="{% url 'profile' %}">Кирилл Колосов</a>
+        <img class="accountsvg" src="static/main/icons/profile.svg">
+    <div class="rectangle-2">
+        <img class="search" src="static/main/icons/search 1.svg">
+        <p> <input type="search" class="searchtext" placeholder="Поиск"></p>
+        <div class="rectangle-line"></div>
+        <a id="textradio">Подкасты и книги</a>
+        <a id="itog">Итоги года: чарты 2023</a>
+            <div class="wrapper">
+                <img class="card" src="static/main/img/image 19.png">
+                <div id="textcard" class="card-title">ТОП-100 НОВЫХ ПОДКАСТОВ</div>
+                <div id="textcard1" class="card-title1">Больше всего слушателей в 2023</div>
+                <div id="textcard2" class="card-title2">Проекты этого года с самой большой аудиторией</div>
+            </div>
+            <div class="wrapper1">
+                <img class="card1" src="static/main/img/image 20.png">
+                <div id="textcard4" class="card-title3">ТОП-30 НОВЫХ АУДИОКНИГ</div>
+                <div id="textcard5" class="card-title4">Слушали больше всего в 2023</div>
+                <div id="textcard6" class="card-title5">и погружались в истории</div>
+             </div>
+    </div>
+</div>
+    <div class="rectangle-1">
+        <div class="progresbar"></div>
+    </div>
+{% endblock %}
